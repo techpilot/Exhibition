@@ -1,0 +1,150 @@
+[
+  {
+    "id": 0,
+    "name": "Frail Juice",
+    "artist": "Stefanie Heinze",
+    "category": "Exhibition",
+    "summary": "Breathtaking hike through the Canadian Banff National Park",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "images": ["StefanieHeinzeExhibition.jpeg", "PieterSchoolwerthExhibition.jpeg"],
+    "startDates": ["2021-04-25,10:00", "2021-07-20,10:00"]
+  },
+  {
+    "id": 1,
+    "name": "PAGE(NYC)",
+    "artist": "Petzel",
+    "category": "Exhibition",
+    "summary": "Exploring the jaw-dropping US east coast by foot and by boat",
+    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "images": ["PageEx.jpeg", "artfair1.jpeg"],
+    "startDates": ["2021-06-19,10:00", "2021-07-20,10:00"]
+  },
+  {
+    "id": 2,
+    "name": "All bets are off",
+    "artist": "Jorge Pardo",
+    "category": "Exhibition",
+    "summary": "Exciting adventure in the snow with snowboarding and skiing",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "images": ["JorgePardoEx.jpeg", "artfair2.jpeg"],
+    "startDates": ["2022-01-05,10:00", "2022-02-12,10:00"]
+  },
+  {
+    "id": 3,
+    "name": "Living Heavens",
+    "artist": "Flash",
+    "category": "Art",
+    "summary": "Living the life of Wanderlust in the US' most beatiful cities",
+    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet.\nConsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!",
+    "images": ["artfair3.jpeg", "artfairBasel.jpeg"],
+    "startDates": ["2021-03-11,10:00", "2021-05-02,10:00"]
+  },
+  {
+    "id": 4,
+    "name": "Art Fair",
+    "artist": "Lescot",
+    "category": "Art",
+    "summary": "Breathing in Nature in America's most spectacular National Parks",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!",
+    "images": ["artfairCover.jpeg", "artfairBaselMiami.jpeg"],
+    "startDates": ["2021-08-05,10:00", "2022-03-20,10:00"]
+  },
+  {
+    "id": 5,
+    "name": "Shifted sims",
+    "artist": "Pieter Schoolwerth",
+    "category": "Exhibition",
+    "summary": "Surfing, skating, parajumping, rock climbing and more, all in one tour",
+    "description": "Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nVoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur!",
+    "images": ["PieterSchoolwerthExhibition.jpeg", "StefanieHeinzeExhibition.jpeg"],
+    "startDates": ["2021-07-19,10:00", "2021-09-06,10:00"]
+  },
+  {
+    "id": 6,
+    "name": "Frieze London",
+    "category": "Art",
+    "summary": "Exquisite wines, scenic views, exclusive barrel tastings,  and much more",
+    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "images": ["artfairFriezeLondon.jpeg", "arthome2.jpeg"],
+    "startDates": ["2021-02-12,10:00", "2021-04-14,10:00"]
+  },
+  {
+    "id": 7,
+    "name": "Basel Miami",
+    "category": "Art",
+    "summary": "The most remote and stunningly beautiful places for seeing the night sky",
+    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "images": ["arthome1.jpeg", "arthome3.jpeg"],
+    "startDates": ["2021-03-23,10:00", "2021-10-25,10:00"]
+  },
+  {
+    "id": 8,
+    "name": "Basel Mongrel",
+    "artist": "Basel Pardo",
+    "category": "Art",
+    "summary": "Enjoy the Northern Lights in one of the best places in the world",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "images": ["artfairBaselMiami.jpeg", "artfairBasel.jpeg"],
+    "startDates": ["2021-12-16,10:00", "2022-01-16,10:00"]
+  },
+  {
+    "id": 9,
+    "name": "The Dirty South",
+    "artist": "Rodney McMillan",
+    "category": "Home",
+    "summary": "Enjoy the Northern Lights in one of the best places in the world",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "images": ["arthome1.jpeg", "arthome2.jpeg", "arthome3.jpeg"],
+    "startDates": ["2021-12-16,10:00", "2022-01-16,10:00"]
+  },
+  {
+    "id": 10,
+    "name": "Redemption Now",
+    "artist": "Yael Bortana",
+    "category": "Home",
+    "summary": "Enjoy the Northern Lights in one of the best places in the world",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "images": ["arthome2.jpeg", "arthome3.jpeg"],
+    "startDates": ["2021-12-16,10:00", "2022-01-16,10:00"]
+  },
+  {
+    "id": 11,
+    "name": "Orphan Carousel",
+    "artist": "Yael Bortana",
+    "category": "Home",
+    "summary": "Permanent Public Memorial Frankfurt",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "images": ["arthome2.jpeg", "arthome3.jpeg"],
+    "startDates": ["2021-12-16,10:00", "2022-01-16,10:00"]
+  },
+  {
+    "id": 12,
+    "name": "Orphan Carous",
+    "artist": "Heimo Zobernig",
+    "category": "Home",
+    "summary": "Permanent Public Memorial Frankfurt",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "images": ["arthome3.jpeg"],
+    "startDates": ["2021-12-16,10:00", "2022-01-16,10:00"]
+  },
+  {
+    "id": 13,
+    "name": "All bets are off",
+    "artist": "Jorge Pardo",
+    "category": "Cover",
+    "summary": "Exciting adventure in the snow with snowboarding and skiing",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "images": ["art1.jpeg"],
+    "startDates": ["October 21, 2022", "November 2, 2022"]
+  },
+  {
+    "id": 14,
+    "name": "PAGE(NYC)",
+    "artist": "Jorge Petzel",
+    "category": "Cover",
+    "summary": "Exciting adventure in the snow with snowboarding and skiing",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "images": ["art2.jpeg"],
+    "startDates": ["October 3, 2022", "October 10, 2022"]
+  }
+]
