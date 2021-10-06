@@ -11,7 +11,9 @@ function Header() {
       </div>
       {/* right */}
       <div className="hidden md:hidden lg:flex pt-5 text-sm mr-0 m-auto justify-content-end font-semibold">
-        <p onClick={() => router.push("/exhibitions")} className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
+        <p onClick={() => router.push("/exhibitions")} className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 active:text-gray-100
+          transform transition duration-500 ease-out"
+        >
           EXHIBITIONS
         </p>
         <p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">

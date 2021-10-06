@@ -1,8 +1,26 @@
 import Image from "next/image"
+import { useRouter } from "next/router";
 
-const SmallCard = ({ artist, name, startDate, endDate, location, image })  => {
+const SmallCard = ({ artist, name, startDate, endDate, location, image, summary, description })  => {
+  const router = useRouter()
+
+  const result = () => {
+    router.push({
+      pathname: "/art",
+      query: {
+        names: name,
+        image,
+        location: location,
+        startDate: startDate,
+        endDate: endDate,
+        summary,
+        description,
+      },
+    });
+  };
+  // console.log(name)
   return (
-    <div className="relative cursor-pointer hover:scale-105 active:scale-90 transform transition duration-500 ease-out">
+    <div onClick={result} className="relative cursor-pointer hover:scale-105 active:scale-90 transform transition duration-500 ease-out">
       {/* up */}
       <div className="relative items-center m-2 mt-5 space-x-4 h-[130px] w-[160px] md:h-[150px] lg:w-[180px] xl:w-[190px] hover:shadow-lg ease-out
         border border-t-2 border-r-0 border-l-0 border-b-0 border-black"
