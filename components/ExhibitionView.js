@@ -17,7 +17,7 @@ function ExhibitionView({ data }) {
       </div>
 
       <div className="grid grid-flow-row-dense grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mb-10 md:-mt-52 mx-auto pt-[200px]">
-        {data.map(({id, name, images, artist, summary, startDates, location}) => (
+        {data.map(({id, name, images, artist, summary, startDates, location, description}) => (
           <SmallCard
             key={id}
             image={images[0]}
@@ -27,6 +27,7 @@ function ExhibitionView({ data }) {
             startDate={startDates[0]}
             endDate={startDates[1]}
             summary={summary}
+            description={description}
           />
         ))}
       </div>

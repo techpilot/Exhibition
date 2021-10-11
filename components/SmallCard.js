@@ -1,24 +1,37 @@
 import Image from "next/image"
 import { useRouter } from "next/router";
+import { useDispatch } from "react-redux";
+import {addToArt, removeFromArt} from "../slices/artSlice";
 
 const SmallCard = ({ artist, name, startDate, endDate, location, image, summary, description })  => {
   const router = useRouter()
+  const dispatch = useDispatch()
 
   const result = () => {
+    dispatch(removeFromArt(name))
+
+    const artWork = {
+      name,
+      artist,
+      image,
+      startDate,
+      endDate,
+      summary,
+      description
+    }
+
+    //  Send the art work as an action to redux store
+    dispatch(addToArt(artWork))
+    console.log(artWork)
+
     router.push({
       pathname: "/art",
       query: {
-        names: name,
-        image,
-        location: location,
-        startDate: startDate,
-        endDate: endDate,
-        summary,
-        description,
-      },
-    });
+        name
+      }
+    })
   };
-  // console.log(name)
+
   return (
     <div onClick={result} className="relative cursor-pointer hover:scale-105 active:scale-90 transform transition duration-500 ease-out">
       {/* up */}

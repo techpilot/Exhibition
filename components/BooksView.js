@@ -1,6 +1,6 @@
 import Books from "./Books";
 import Image from "next/image";
-import art1 from "../public/data/tours/art1.jpeg";
+import art1 from "../public/data/tours/artfairCover.jpeg";
 import info from "../public/data/newData";
 
 const BooksView = ({ data }) => {

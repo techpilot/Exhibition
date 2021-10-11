@@ -2,6 +2,7 @@ import Image from "next/image"
 import info from "../public/data/newData";
 import art1 from "../public/data/tours/art1.jpeg"
 import art2 from "../public/data/tours/art2.jpeg"
+import art3 from "../public/data/tours/artfairCover.jpeg"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import {Carousel} from "react-responsive-carousel";
 // import { Carousel } from "react-bootstrap"
@@ -28,6 +29,13 @@ function Banner(){
         <div className="relative h-[250px] sm:h-[300px] md:h-[400px] lg:h-[550px] xl:h-[550px] 2xl:h-[600px] mt-10">
           <Image
             src={art2}
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+        <div className="relative h-[250px] sm:h-[300px] md:h-[400px] lg:h-[550px] xl:h-[550px] 2xl:h-[600px] mt-10">
+          <Image
+            src={art3}
             layout="fill"
             objectFit="cover"
           />

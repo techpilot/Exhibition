@@ -1,23 +1,43 @@
+import { useSelector } from "react-redux";
+import ArtDetails from "../components/ArtDetails";
+import { selectItems } from "../slices/artSlice";
 import { useRouter } from "next/router";
-import Image from "next/image";
-import image from "../public/data/tours/PageEx.jpeg"
-import info from "../public/data/newData";
+import Footer from "../components/Footer";
+import DetailsHeader from "../components/DetailsHeader";
 
 const Art = () => {
-  const data = info
+  const items = useSelector(selectItems)
   const router = useRouter()
-  const { location, startDate, endDate, names, summary, description } = router.query
+
+  const { name } = router.query
 
   // data.map(({ name }) => {
   //   if (name === names) {
-  //     console.log(names)
+  //     return setResult(name)
   //   }
   // })
-  console.log(names)
 
   return(
     <div>
-      <h2>{summary}</h2>
+      <div className="max-w-7xl mx-auto px-8 sm:px-16 sm:w-full bg-white">
+        <DetailsHeader/>
+
+        {items.map((item, i) => (
+          <ArtDetails
+            key={i}
+            id={item.id}
+            name={item.name}
+            image={item.image}
+            artist={item.artist}
+            summary={item.summary}
+            description={item.description}
+            startDate={item.startDate}
+            endDate={item.endDate}
+          />
+        ))}
+      </div>
+
+      <Footer />
     </div>
   )
 }

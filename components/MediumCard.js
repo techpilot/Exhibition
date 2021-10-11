@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function MediumCard({ name, image }) {
   return(
-    <div className="cursor-pointer hover:scale-105 transform transition duration-300 active:scale-95 ease-out my-6">
+    <div className="cursor-pointer hover:scale-105 transform transition duration-300 active:scale-95 ease-out mt-3 mb-20">
       <div className="relative h-60 w-80">
         <Image src={image} layout="fill" objectFit="contain" className="rounded-lg"/>
       </div>
