@@ -4,7 +4,7 @@ import { selectItems } from "../slices/artSlice";
 import { useRouter } from "next/router";
 import Footer from "../components/Footer";
 import DetailsHeader from "../components/ExhibitionSmall";
-import Header from "../components/ExhibitionSmall";
+import Header from "../components/Header";
 
 const Art = () => {
   const items = useSelector(selectItems)
@@ -20,7 +20,7 @@ const Art = () => {
 
   return(
     <div>
-      <div className="max-w-7xl  sm:mx-auto -px-8 sm:px-16 sm:w-full bg-white">
+      <div className="max-w-7xl sm:mx-auto -px-8 sm:px-16 sm:w-full bg-white">
         <Header/>
 
         {items.map((item, i) => (
