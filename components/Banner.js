@@ -19,21 +19,21 @@ function Banner(){
         showArrows={false}
         interval={5000}
       >
-        <div className="relative h-[250px] sm:h-[300px] md:h-[400px] lg:h-[550px] xl:h-[550px] 2xl:h-[600px] mt-10">
+        <div className="relative h-[230px] sm:h-[300px] md:h-[400px] lg:h-[550px] xl:h-[550px] 2xl:h-[600px] mt-10">
           <Image
             src={art1}
             layout="fill"
             objectFit="cover"
           />
         </div>
-        <div className="relative h-[250px] sm:h-[300px] md:h-[400px] lg:h-[550px] xl:h-[550px] 2xl:h-[600px] mt-10">
+        <div className="relative h-[230px] sm:h-[300px] md:h-[400px] lg:h-[550px] xl:h-[550px] 2xl:h-[600px] mt-10">
           <Image
             src={art2}
             layout="fill"
             objectFit="cover"
           />
         </div>
-        <div className="relative h-[250px] sm:h-[300px] md:h-[400px] lg:h-[550px] xl:h-[550px] 2xl:h-[600px] mt-10">
+        <div className="relative h-[230px] sm:h-[300px] md:h-[400px] lg:h-[550px] xl:h-[550px] 2xl:h-[600px] mt-10">
           <Image
             src={art3}
             layout="fill"

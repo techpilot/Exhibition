@@ -1,5 +1,6 @@
 import SmallCard from "./SmallCard";
 import BigExhibit from "./BigExhibit";
+import ExhibitionSmall from "./ExhibitionSmall"
 
 function ExhibitionView({ data }) {
   return(
@@ -16,9 +17,9 @@ function ExhibitionView({ data }) {
         ))}
       </div>
 
-      <div className="grid grid-flow-row-dense grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mb-10 md:-mt-52 mx-auto pt-[200px]">
+      <div className="grid grid-flow-row-dense grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mb-10 md:-mt-52 -mx-5 sm:mx-auto pt-[200px]">
         {data.map(({id, name, images, artist, summary, startDates, location, description}) => (
-          <SmallCard
+          <ExhibitionSmall
             key={id}
             image={images[0]}
             artist={artist}

@@ -32,8 +32,8 @@ const Login = () => {
               />
             </div>
 
-            <div className="px-0 sm:px-auto md:px-auto lg:px-[210px] items-center mt-1">
-              <button className="flex mx-10 sm:mx-auto md:mx-auto mx-[330px] items-center md:border-2 rounded-md py-2 md:shadow-sm border-green-600
+            <div className="px-[0px] sm:px-auto md:px-auto lg:px-[210px] items-center mt-1">
+              <button className="flex mx-[75px] sm:mx-auto md:mx-auto mx-[330px] items-center md:border-2 rounded-md py-2 md:shadow-sm border-green-600
               px-20 md:px-32 m-auto mt-16 mb-24 bg-gradient-to-b from-green-700 to-green-600 text-white hover:shadow-lg
               active:scale-95 transform transition duration-500 ease-out"
               >
