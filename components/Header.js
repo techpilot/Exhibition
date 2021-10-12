@@ -10,7 +10,7 @@ function Header() {
         <p onClick={() => router.push("/")} className="cursor-pointer active:scale-90 transform transition duration-500 ease-out">Steve</p>
       </div>
       {/* right */}
-      <div className="hidden md:hidden lg:flex pt-5 text-sm mr-0 m-auto justify-content-end font-semibold">
+      <div className="lg:flex pt-5 text-sm mr-0 m-auto justify-content-end font-semibold">
         <p onClick={() => router.push("/exhibitions")} className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 active:text-gray-100
           transform transition duration-500 ease-out"
         >
@@ -19,24 +19,24 @@ function Header() {
         <p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
           ARTISTS
         </p>
-        <p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
-          PUBLICATIONS
-        </p>
-        <p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
-          FAIRS
-        </p>
-        <p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
-          NEWS
-        </p>
+        {/*<p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">*/}
+        {/*  PUBLICATIONS*/}
+        {/*</p>*/}
+        {/*<p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">*/}
+        {/*  FAIRS*/}
+        {/*</p>*/}
+        {/*<p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">*/}
+        {/*  NEWS*/}
+        {/*</p>*/}
         <p onClick={() => router.push("/private")} className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
           PRIVATE
         </p>
         <p onClick={() => router.push("/bookshop")} className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
           BOOKSHOP
         </p>
-        <p className="cursor-pointer ml-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
-          GALLERY
-        </p>
+        {/*<p className="cursor-pointer ml-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">*/}
+        {/*  GALLERY*/}
+        {/*</p>*/}
       </div>
     </header>
   )
