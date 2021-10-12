@@ -7,7 +7,7 @@ function Header() {
     <header className="flex top-0 z-50 py-3 items-center m-auto">
       {/* left */}
       <div className="font-bold font-mono text-5xl my-auto ml-0 mr-20 h-10 text-5xl">
-        <p onClick={() => router.push("/")} className="cursor-pointer active:scale-90 transform transition duration-500 ease-out">Nelson</p>
+        <p onClick={() => router.push("/")} className="cursor-pointer active:scale-90 transform transition duration-500 ease-out">Steve</p>
       </div>
       {/* right */}
       <div className="hidden md:hidden lg:flex pt-5 text-sm mr-0 m-auto justify-content-end font-semibold">
