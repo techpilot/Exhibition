@@ -1,13 +1,12 @@
 import Image from "next/image"
 
-
 const ArtDetails = ({ name, image, artist, summary, description, startDate, endDate }) => {
   return(
     <div>
       <div className="max-w-5xl sm:max-w-5xl mx-auto my-5 md:my-10 px-8 py-1 shadow-2xl rounded-lg">
         <div className="relative flex-col max-w-7xl mx-auto px-8 sm:px-16 sm:w-full">
           <div className="mx-auto items-center ml-0 m-2 mt-20 h-[300px] w-[400px]">
-            <Image src={image} layout="fill" objectFit="contain" className="rounded-xl"/>
+            <Image src={`/${image}`} layout="fill" objectFit="contain" className="rounded-xl"/>
           </div>
         </div>
 
@@ -19,7 +18,7 @@ const ArtDetails = ({ name, image, artist, summary, description, startDate, endD
 
         <div className="flex">
           <div>
-            <h1 className="font-bold text-sm text-gray-700 mt-10 border-gray-400 border-r-0 border-l-0 border-t-0 border-b-2">SUMMARY</h1>
+            <h1 className="font-bold text-xs lg:text-sm text-gray-700 mt-10 border-gray-400 border-r-0 border-l-0 border-t-0 border-b-2">SUMMARY</h1>
             <p className="mt-3 mb-20">{summary}</p>
           </div>
 

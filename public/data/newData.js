@@ -33,7 +33,7 @@ const info = [
         "        \"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\n" +
         "        \"Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!\n" +
         "        \"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!",
-      "images": [art5, art2],
+      "images": ["artfair2.jpeg", "artfair1.jpeg"],
       "startDates": ["June 21, 2022", "July 2, 2022"]
     },
     {
@@ -51,7 +51,7 @@ const info = [
         "        \"Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!\n" +
         "        \"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\n" +
         "        \"Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
-      "images": [art8, art2],
+      "images": ["PieterSchoolwerthExhibition.jpeg", "artfair2.jpeg"],
       "startDates": ["August 20, 2022", "September 1, 2022"]
     },
     {
@@ -69,7 +69,7 @@ const info = [
         "        \"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\\n\" +\n" +
         "        \"Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!\" +\n" +
         "        \"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!",
-      "images": [art2, art1],
+      "images": ["artfair2.jpeg", "artfair1.jpeg"],
       "startDates": ["December 2, 2021", "December 8, 2021"]
     },
     {
@@ -85,7 +85,7 @@ const info = [
         "Enjoy the Northern Lights in one of the best places in the world Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh\",\n" +
         "      \"description\": \"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\\n\" +\n" +
         "        \"Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
-      "images": [art14, art3],
+      "images": ["artfairFriezeLondon.jpeg", "artfair3.jpeg"],
       "startDates": ["October 3, 2021", "October 5, 2021"]
     },
     {
@@ -96,7 +96,7 @@ const info = [
       "location": "042 Arena",
       "summary": "Breathing in Nature in America's most spectacular National Parks Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!",
-      "images": [art4, art5],
+      "images": ["JonPylypchukExhibition.jpeg", "artfairBasel.jpeg"],
       "startDates": ["December 25, 2022", "December 31, 2022"]
     },
     {
@@ -107,7 +107,7 @@ const info = [
       "location": "Atlantis Enugu",
       "summary": "Surfing, skating, parajumping, rock climbing and more, all in one tour Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh",
       "description": "Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nVoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur!",
-      "images": [art6, art10],
+      "images": ["PageEx.jpeg", "JorgePardoEx.jpeg"],
       "startDates": ["July 2, 2022", "July 9, 2022"]
     },
     {
@@ -118,7 +118,7 @@ const info = [
       "location": "Jewish Museum Lagos",
       "summary": "Exquisite wines, scenic views, exclusive barrel tastings,  and much more Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh",
       "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "images": [artfairBaselMiami, art6],
+      "images": ["artfairBaselMiami.jpeg", "PageEx.jpeg"],
       "startDates": ["April 1, 2022", "April 7, 2022"]
     },
     {
@@ -128,7 +128,7 @@ const info = [
       "category": "Art",
       "summary": "The most remote and stunningly beautiful places for seeing the night sky Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh",
       "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "images": [art9, art8],
+      "images": ["StefanieHeinzeExhibition.jpeg", "PieterSchoolwerthExhibition.jpeg"],
       "startDates": ["June 17, 2022", "June 21, 2022"]
     },
     {
@@ -139,7 +139,7 @@ const info = [
       "location": "Dade College",
       "summary": "Enjoy the Northern Lights in one of the best places in the world Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh",
       "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
-      "images": [art11, art1],
+      "images": ["arthome1.jpeg", "artfair1.jpeg"],
       "startDates": ["February 5, 2022", "February 14, 2022"]
     },
     {
@@ -152,7 +152,7 @@ const info = [
       "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\n" +
         "Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!" +
         "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!",
-      "images": [art12, art5],
+      "images": ["arthome2.png", "artfairBasel.jpeg"],
       "startDates": ["November 5, 2021", "December 1, 2022"]
     },
     {
@@ -163,7 +163,7 @@ const info = [
       "location": "University of Nigeria Art Gallery",
       "summary": "Enjoy the Northern Lights in one of the best places in the world Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh",
       "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
-      "images": [art11, art13],
+      "images": ["arthome1.jpeg", "arthome3.jpeg"],
       "startDates": ["December 16, 2021", "February 2, 2022"]
     },
     {
@@ -174,7 +174,7 @@ const info = [
       "location": "Pencil Art Exhibitions",
       "summary": "Permanent Public Memorial Frankfurt Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh",
       "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
-      "images": [art6, art9],
+      "images": ["PageEx.jpeg", "StefanieHeinzeExhibition.jpeg"],
       "startDates": ["December 16, 2021", "January 16, 2022"]
     },
     {
@@ -185,7 +185,7 @@ const info = [
       "location": "Flash Works",
       "summary": "Permanent Public Memorial Frankfurt Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh",
       "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
-      "images": [art13],
+      "images": ["arthome3.jpeg"],
       "startDates": ["December 16, 2021", "January 1, 2022"]
     },
     {
@@ -196,7 +196,7 @@ const info = [
       "location": "Museum of Fine Arts",
       "summary": "Exciting adventure in the snow with snowboarding and skiing Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh",
       "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
-      "images": [art1],
+      "images": ["artfair1.jpeg"],
       "startDates": ["October 21, 2022", "November 2, 2022"]
     },
     {
@@ -207,7 +207,7 @@ const info = [
       "location": "Igbo-Ukwu Anambra",
       "summary": "Exciting adventure in the snow with snowboarding and skiing Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh",
       "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
-      "images": [art10],
+      "images": ["JorgePardoEx.jpeg"],
       "startDates": ["October 3, 2022", "October 10, 2022"]
     }
   ]

@@ -1,7 +1,7 @@
 import 'tailwindcss/tailwind.css'
 import { Provider } from "react-redux";
 import { store } from "../src/app/store";
-import { Provider as AuthProvider } from "next-auth/client"
+import { SessionProvider as AuthProvider } from "next-auth/react"
 import { PersistGate } from "redux-persist/integration/react";
 import { persistStore } from "redux-persist";
 

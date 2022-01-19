@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useDispatch } from "react-redux";
 import {addToArt, removeFromArt} from "../slices/artSlice";
 
-const SmallCard = ({ artist, name, startDate, endDate, location, image, summary, description })  => {
+const SmallCard = ({ artist, name, category, location, image, summary, description })  => {
   const router = useRouter()
   const dispatch = useDispatch()
 
@@ -14,8 +14,7 @@ const SmallCard = ({ artist, name, startDate, endDate, location, image, summary,
       name,
       artist,
       image,
-      startDate,
-      endDate,
+      category,
       summary,
       description
     }
@@ -38,7 +37,7 @@ const SmallCard = ({ artist, name, startDate, endDate, location, image, summary,
       <div className="relative items-center m-2 mt-5 space-x-4 h-[130px] w-[150px] md:h-[150px] lg:w-[180px] xl:w-[190px] hover:shadow-lg ease-out
         border border-t-2 border-r-0 border-l-0 border-b-0 border-black"
       >
-        <Image src={image} layout="fill" objectFit="contain" />
+        <Image src={`/${image}`} layout="fill" objectFit="contain" />
       </div>
       {/* down pr-[950px] */}
       <div className="ml-2 -mr-12 sm:-mr-0 pr-[100px] sm:pr-[100px] lg:pr-[40px] hover:text-gray-300 duration-500 ease-out">
@@ -46,7 +45,7 @@ const SmallCard = ({ artist, name, startDate, endDate, location, image, summary,
           {artist}: {name}
         </p>
         <p className="text-sm my-2 italic text-gray-700 font-semibold">
-          {startDate} - {endDate}
+          {category}
         </p>
         <p className="hidden md:grid text-gray-700">at {location}</p>
       </div>

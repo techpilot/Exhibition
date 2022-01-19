@@ -15,7 +15,8 @@ import storage from "redux-persist/lib/storage"
 const persistConfig = {
   key: "root",
   version: 1,
-  storage
+  storage,
+  // blacklist: ['admin']
 }
 
 const persistedReducer = persistReducer(persistConfig, artReducer)
@@ -25,6 +26,13 @@ const persistedReducer = persistReducer(persistConfig, artReducer)
 //     art: artReducer
 //   }
 // })
+
+// Believed to purge the whole state
+// extraReducers: (builder) => {
+//   builder.addCase(PURGE, (state) => {
+//     customEntityAdapter.removeAll(state)
+//   })
+// }
 
 export const store = configureStore({
   reducer: {

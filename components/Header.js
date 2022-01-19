@@ -1,13 +1,16 @@
 import { useRouter } from "next/router";
+import { signOut, useSession } from "next-auth/react";
 
 function Header() {
+  const { data: session } = useSession()
   const router = useRouter()
+  console.log("session: ", session)
 
   return (
     <header className="flex top-0 z-50 bg-white py-3 items-center m-auto">
       {/* left */}
       <div className="font-bold font-mono text-5xl my-auto ml-0 mr-20 h-10 text-5xl">
-        <p onClick={() => router.push("/")} className="cursor-pointer active:scale-90 transform transition duration-500 ease-out">Steve</p>
+        <p onClick={() => router.push("/")} className="cursor-pointer active:scale-90 transform transition duration-500 ease-out"> Nelson</p>
       </div>
       {/* right */}
       <div className="lg:flex pt-5 text-sm mr-0 m-auto justify-content-end font-semibold">
@@ -16,27 +19,24 @@ function Header() {
         >
           EXHIBITIONS
         </p>
-        <p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
-          ARTISTS
-        </p>
         {/*<p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">*/}
         {/*  PUBLICATIONS*/}
-        {/*</p>*/}
-        {/*<p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">*/}
-        {/*  FAIRS*/}
-        {/*</p>*/}
-        {/*<p className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">*/}
-        {/*  NEWS*/}
-        {/*</p>*/}
-        <p onClick={() => router.push("/private")} className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
+        <p onClick={() => router.push("/bookshop")} className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
+          SCULPTURES
+        </p>
+        <p  onClick={() => router.push("/artists")} className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
+          ARTISTS
+        </p>
+        <p onClick={() => router.push("/private")}
+           className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
           PRIVATE
         </p>
-        <p onClick={() => router.push("/bookshop")} className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
-          BOOKSHOP
-        </p>
-        {/*<p className="cursor-pointer ml-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">*/}
-        {/*  GALLERY*/}
-        {/*</p>*/}
+        {session ? <button onClick={() => signOut()} className="font-semibold">LOG OUT</button> :
+          <p onClick={() => router.push("/api/auth/signin")}
+             className="cursor-pointer mx-2 hover:text-gray-500 active:scale-90 transform transition duration-500 ease-out">
+            SIGN IN
+          </p>
+        }
       </div>
     </header>
   )

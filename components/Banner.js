@@ -66,7 +66,7 @@ function Banner(){
 
       <div className="mb-1">
         <h1 className="text-2xl">
-          {info[13].artist}
+          {info[13].artist}'s
         </h1>
         <p className="italic">
           {info[13].name}
