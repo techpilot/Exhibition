@@ -13,7 +13,9 @@ function Exhibitions({ arts }) {
 
         <ExhibitionView data={arts}/>
       </div>
-      <Footer />
+      <div className="-mr-12">
+        <Footer />
+      </div>
     </div>
   )
 }

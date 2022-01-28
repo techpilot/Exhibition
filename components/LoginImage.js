@@ -87,7 +87,7 @@ const LoginImage = ({ identity, name, artist, image, secret, category, location,
 
   return(
     <div
-      className="flex py-7 px-2 pr-4 border-b cursor-pointer hover:opacity-80 hover:shadow-lg
+      className="flex py-7 px-2 pr-4 border-b hover:opacity-80 hover:shadow-lg
     transition duration-200 ease-out first:border-t"
     >
     <Modal open={open} onClose={() => setOpen(false)}>

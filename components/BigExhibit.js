@@ -3,7 +3,7 @@ import info from "../public/data/newData";
 
 function BigExhibit({ artist, name, summary, image }) {
   return(
-    <div className="relative cursor-pointer hover:scale-95 transform transition duration-500 active:scale-105 ease-out">
+    <div className="relative hover:scale-95 transform transition duration-500 active:scale-105 ease-out">
       {/* up */}
       <div className="relative items-center ml-0 m-2 mt-2 space-x-4 h-[300px] w-[350px]">
         <Image src={`/${image}`} layout="fill" objectFit="contain" />

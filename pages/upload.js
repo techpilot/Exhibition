@@ -8,12 +8,14 @@ import Footer from "../components/Footer";
 import { useSession } from "next-auth/react";
 import { useState } from "react";
 import {Button} from "semantic-ui-react";
+import axios from 'axios';
 
 const Upload = () => {
   const { register, handleSubmit } = useForm()
   const router = useRouter()
   const { data: session } = useSession()
   const [client, setClient] = useState()
+  // const [ selectedFile, setSelectedFile ] = useState(null)
 
   const result = () => {
     if (session) {
@@ -24,11 +26,17 @@ const Upload = () => {
   };
 
   const onSubmit = async (data) => {
-
+    // setSelectedFile(data.image[0]);
     const data2 = new FormData();
-    data2.append("file", data.image[0]);
+    data2.append("file", data.image[0], data.image[0].name);
     console.log("public image", data2);
-    console.log(data.image[0])
+    console.log("IMAGE", data.image[0]);
+
+
+    // axios.post('C:\\Users\\Cipher\\Downloads\\Projects\\exhibition\\public\\data', data2)
+    //   .then(res => {
+    //     console.log(res);
+    //   });
 
     // console.log(data.image[0].name)
     if (data.image[0]) {

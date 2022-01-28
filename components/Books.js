@@ -15,7 +15,7 @@ const Books = ({ artist, name, image, summary }) => {
           {artist}: {name} - {summary}
         </p>
         <button className="mt-auto p-2 text-xs h-[35px] md:text-sm bg-gradient-to-b from-black to-black border border-black
-        rounded-sm focus:outline-none focus:ring-2 focus:ring-white active:from-blue-500 text-white">READ MORE</button>
+        rounded-sm focus:outline-none focus:ring-2 focus:ring-white active:from-blue-500 text-white">KNOW MORE</button>
       </div>
     </div>
   )

@@ -32,7 +32,8 @@ export default function Home({ arts }) {
           <div className="flex space-x-4 overflow-scroll scrollbar-hide p-3 -ml-3">
             {arts.slice(5, 12).map((item) => (
               item.private === false ?
-                <MediumCard key={item._id} name={item.name} image={item.image} date={item.startDate} artist={item.artist} />
+                <MediumCard key={item._id} name={item.name} image={item.image} date={item.startDate}
+                            artist={item.artist} summary={item.summary} description={item.description} />
                 : null
             ))}
           </div>

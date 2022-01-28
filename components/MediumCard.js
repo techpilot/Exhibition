@@ -4,7 +4,7 @@ import {useDispatch} from "react-redux";
 import {addToArt, removeFromArt} from "../slices/artSlice";
 // import image from "../public/artfairBasel.jpeg"
 
-function MediumCard({ name, image, date, artist }) {
+function MediumCard({ name, image, date, artist, summary, description }) {
   const router = useRouter()
   const dispatch = useDispatch()
 
@@ -15,7 +15,9 @@ function MediumCard({ name, image, date, artist }) {
       name,
       image,
       date,
-      artist
+      artist,
+      summary,
+      description
     }
 
     //  Send the art work as an action to redux store

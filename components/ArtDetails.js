@@ -5,7 +5,7 @@ const ArtDetails = ({ name, image, artist, summary, description, startDate, endD
     <div>
       <div className="max-w-5xl sm:max-w-5xl mx-auto my-5 md:my-10 px-8 py-1 shadow-2xl rounded-lg">
         <div className="relative flex-col max-w-7xl mx-auto px-8 sm:px-16 sm:w-full">
-          <div className="mx-auto items-center ml-0 m-2 mt-20 h-[300px] w-[400px]">
+          <div className="mx-auto items-center ml-0 m-2 mt-20 h-[400px] w-[600px]">
             <Image src={`/${image}`} layout="fill" objectFit="contain" className="rounded-xl"/>
           </div>
         </div>
