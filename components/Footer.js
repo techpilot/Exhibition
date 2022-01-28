@@ -41,7 +41,7 @@ function Footer() {
       <Modal open={open} onClose={() => setOpen(false)}>
         <div style={modalStyle} className={classes.paper}>
           <div>
-            <h2 className="px-2 py-2 mx-3 ml-5 items-center text-green-600 text-lg">Contact the admin for any support.</h2>
+            <h2 className="px-2 py-2 mx-3 ml-3 items-center text-green-600 text-lg font-semibold">Contact the admin for any support.</h2>
           </div>
         </div>
       </Modal>
