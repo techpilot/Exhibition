@@ -33,7 +33,7 @@ export default function Home({ arts }) {
             {arts.slice(5, 12).map((item) => (
               item.private === false ?
                 <MediumCard key={item._id} name={item.name} image={item.image} date={item.startDate}
-                            artist={item.artist} summary={item.summary} description={item.description} />
+                            artist={item.artist} summary={item.summary} description={item.description} location={item.location} />
                 : null
             ))}
           </div>

@@ -17,7 +17,7 @@ function Header() {
           onClick={() => router.push('/')}
           src={logo}
           width={100}
-          height={70}
+          height={60}
           objectFit="contain"
           className="cursor-pointer active:scale-90 transform transition duration-500 ease-out"
         />

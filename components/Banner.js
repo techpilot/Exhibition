@@ -1,8 +1,9 @@
 import Image from "next/image"
 import info from "../public/data/newData";
 import art1 from "../public/data/tours/art1.jpeg"
-import art2 from "../public/data/tours/art2.jpeg"
-import art3 from "../public/data/tours/artfairCover.jpeg"
+import art2 from "../public/frames.jpeg"
+import art3 from "../public/wallpaper.jpeg"
+import art4 from "../public/paint.jpeg"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import {Carousel} from "react-responsive-carousel";
 // import { Carousel } from "react-bootstrap"
@@ -40,6 +41,13 @@ function Banner(){
             objectFit="cover"
           />
         </div>
+        <div className="relative h-[230px] sm:h-[300px] md:h-[400px] lg:h-[550px] xl:h-[550px] 2xl:h-[600px] mt-10">
+          <Image
+            src={art4}
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
       </Carousel>
 
 
@@ -65,13 +73,13 @@ function Banner(){
       {/*</Carousel>*/}
 
       <div className="mb-1">
-        <h1 className="text-2xl">
-          {info[13].artist}'s
+        <h1 className="text-2xl font-semibold text-gray-700">
+          Nelson's
         </h1>
         <p className="italic">
           {info[13].name}
         </p>
-        <p className="text-sm">
+        <p className="text-sm italic">
           {`${info[13].startDates[0]} - ${info[13].startDates[1]}`}
         </p>
       </div>

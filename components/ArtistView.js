@@ -4,11 +4,13 @@ const ArtistView = ({ data }) => {
   return(
     <div>
       <div className="flex flex-col mb-2 mx-20 py-1">
-        {data.map(({ id, artist, summary }) => (
+        {data.slice(0, 5).map(({ id, name, about, works, email }) => (
           <ArtistDetails
             key={id}
-            artist={artist}
-            summary={summary}
+            name={name}
+            about={about}
+            works={works}
+            email={email}
           />
         ))}
       </div>

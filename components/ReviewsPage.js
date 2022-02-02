@@ -6,7 +6,7 @@ const ReviewsPage = ({ review, art, user, image }) => {
  return (
    <div className="flex max-w-5xl mx-auto py-7 px-2 pr-4 border-b cursor-pointer hover:opacity-80 hover:shadow-lg
     transition duration-200 ease-out first:border-t">
-    <div className="relative h-24 w-40 md:h-52 md:w-80 flex-shrink-0">
+    <div className="relative h-10 w-30 md:h-[70px] md:w-[100px] flex-shrink-0">
      <Image
        src={`/${image}`}
        layout="fill"
@@ -21,7 +21,7 @@ const ReviewsPage = ({ review, art, user, image }) => {
       <HeartIcon className="h-7 cursor-pointer text-red-400" />
      </div>
 
-     <h4 className="text-lg pt-2 font-semibold">Review</h4>
+     <h4 className="pt-2 font-semibold">Review</h4>
 
      {/*<div className="border-b w-10 pt-4" />*/}
 
@@ -35,7 +35,7 @@ const ReviewsPage = ({ review, art, user, image }) => {
 
       <div>
        {/*<p className="text-lg lg:text-xl font-semibold pb-2">any</p>*/}
-       <p className="text-right font-light">{user}</p>
+       <p className="text-right font-light italic">{user}</p>
       </div>
      </div>
     </div>

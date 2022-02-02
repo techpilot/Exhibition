@@ -20,7 +20,7 @@ const Art = () => {
 
   return(
     <div>
-      <div className="max-w-7xl sm:mx-auto -px-8 sm:px-16 sm:w-full bg-white">
+      <div className="w-full sm:max-w-7xl sm:mx-auto -px-8 sm:px-16 sm:w-full bg-white">
         <Header/>
 
         {items.map((item, i) => (
@@ -32,8 +32,7 @@ const Art = () => {
             artist={item.artist}
             summary={item.summary}
             description={item.description}
-            startDate={item.startDate}
-            endDate={item.endDate}
+            location={item.location}
           />
         ))}
       </div>

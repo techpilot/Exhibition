@@ -36,6 +36,9 @@ const BooksView = ({ data }) => {
             name={item.name}
             summary={item.summary}
             image={item.image}
+            description={item.description}
+            category={item.category}
+            location={item.location}
           /> : null
         ))}
       </div>

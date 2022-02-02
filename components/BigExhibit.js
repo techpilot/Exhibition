@@ -17,7 +17,7 @@ function BigExhibit({ artist, name, summary, image }) {
           <p className="italic">
             {name}
           </p>
-          <p className="text-sm">
+          <p className="text-sm italic">
             {`${info[13].startDates[0]} - ${info[13].startDates[1]}`}
           </p>
         </div>

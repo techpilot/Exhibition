@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import fetch from "isomorphic-unfetch";
 
 function Exhibitions({ arts }) {
-  const data = info
+  // const data = info
   return(
     <div>
       <div className="max-w-7xl mx-auto px-8 sm:px-16 sm:w-full bg-white">

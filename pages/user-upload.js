@@ -112,7 +112,7 @@ const UserUpload = () => {
           </form>
 
         </div> : <h2 className="mx-[45px] sm:mx-[67px] md:mx-[80px] lg:mx-[240px] xl:mx-[300px] my-10 px-20 text-red-600
-            font-bold items-center">Strictly for Admins only. Make sure you are provided with an access</h2>
+            font-bold items-center text-center">Strictly for Admins only. Make sure you are provided with an access</h2>
         }
       </div>
     </div>

@@ -16,7 +16,8 @@ const SmallCard = ({ artist, name, category, location, image, summary, descripti
       image,
       category,
       summary,
-      description
+      description,
+      location
     }
 
     //  Send the art work as an action to redux store

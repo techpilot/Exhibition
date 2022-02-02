@@ -25,14 +25,14 @@ const UserDetails = () => {
 
   const createArt = async () => {
     try {
-      const res = await fetch('http://localhost:3000/api/arts', {
-        method: 'POST',
-        headers: {
-          "Accept": "application/json",
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(form)
-      })
+      // const res = await fetch('http://localhost:3000/api/arts', {
+      //   method: 'POST',
+      //   headers: {
+      //     "Accept": "application/json",
+      //     "Content-Type": "application/json"
+      //   },
+      //   body: JSON.stringify(form)
+      // })
       await router.push("/users")
     } catch (error) {
       console.log(error)

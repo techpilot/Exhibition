@@ -125,7 +125,7 @@ const LoginImage = ({ identity, name, artist, image, secret, category, location,
 
         <div className="border-b w-10 pt-4" />
 
-        <p className="pt-2 text-sm text-gray-500 flex-grow">@{location} - {summary}</p>
+        <p className="pt-2 text-sm text-gray-500 flex-grow text-justify">@{location} - {summary}</p>
 
         <div className="flex justify-between items-end pt-5">
           <p className="flex items-center">

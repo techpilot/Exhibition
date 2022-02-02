@@ -1,5 +1,6 @@
 import { Review } from "../../../models/reviewModel";
 import dbConnect from "../../../utils/dbConnect";
+import {User} from "../../../models/userModel";
 
 dbConnect()
 export default async (req, res) => {
@@ -8,18 +9,17 @@ export default async (req, res) => {
   switch (method) {
     case 'GET':
       try {
-        const reviews = await Review.find({})
+        const reviews = await Review.find({});
 
         res.status(200).json({
           status: "success",
-          reviews: reviews.length,
+          users: reviews.length,
           data: reviews
         })
       } catch (error) {
         res.status(400).json({
           status: "failed",
-          errors: error,
-          message: "Cannot get reviews"
+          message: error
         })
       }
       break;
