@@ -31,7 +31,8 @@ const BooksView = ({ data }) => {
         {data.map((item) => (
           item.private === false && item.category === "sculpture" ?
           <Books
-            key={item._id}
+            key={item.id}
+            identity={item.id}
             artist={item.artist}
             name={item.name}
             summary={item.summary}

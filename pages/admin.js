@@ -1,18 +1,14 @@
 import Image from "next/image";
 import profile from "../public/default.jpg";
-import {signOut} from "next-auth/react";
 import fetch from "isomorphic-unfetch";
 import AdminPage from "../components/AdminPage"
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
-import { useDispatch, useSelector } from "react-redux";
-import {addToArt, removeFromArt, selectItems} from "../slices/artSlice";
 import {useState} from "react";
 
 const Admin = ({ arts }) => {
   let { data: session } = useSession()
   const router = useRouter();
-  const dispatch = useDispatch()
   const [client, setClient] = useState()
   const [user, setUser] = useState()
 
@@ -27,15 +23,6 @@ const Admin = ({ arts }) => {
 
     console.log("session", session)
     console.log("client", client)
-
-    // dispatch(removeFromArt(session.user.email))
-    // console.log(session.user.email)
-    //
-    // const userDetails = session
-    //
-    // //  Send the art work as an action to redux store
-    // dispatch(addToArt(userDetails))
-    // console.log("dispatch", userDetails)
   };
 
   // const items = useSelector(selectItems)

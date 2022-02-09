@@ -3,14 +3,16 @@ import { useRouter } from "next/router";
 import { useDispatch } from "react-redux";
 import {addToArt, removeFromArt} from "../slices/artSlice";
 
-const SmallCard = ({ artist, name, category, location, image, summary, description })  => {
+const SmallCard = ({ identity ,artist, name, category, location, image, summary, description })  => {
   const router = useRouter()
   const dispatch = useDispatch()
+  // console.log("small", identity)
 
   const result = () => {
     dispatch(removeFromArt(name))
 
     const artWork = {
+      identity,
       name,
       artist,
       image,

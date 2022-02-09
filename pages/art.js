@@ -26,7 +26,7 @@ const Art = () => {
         {items.map((item, i) => (
           <ArtDetails
             key={i}
-            id={item.id}
+            id={item.identity}
             name={item.name}
             image={item.image}
             artist={item.artist}

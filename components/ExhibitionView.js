@@ -21,6 +21,7 @@ function ExhibitionView({ data }) {
           item.private === false && item.category === "exhibition" ?
             <ExhibitionSmall
               key={item._id}
+              identity={item.id}
               image={item.image}
               artist={item.artist}
               name={item.name}

@@ -4,14 +4,16 @@ import {useDispatch} from "react-redux";
 import {addToArt, removeFromArt} from "../slices/artSlice";
 // import image from "../public/artfairBasel.jpeg"
 
-function MediumCard({ name, image, date, artist, summary, description, location }) {
+function MediumCard({ identity ,name, image, date, artist, summary, description, location }) {
   const router = useRouter()
   const dispatch = useDispatch()
+  // console.log("medium", identity)
 
   const result = () => {
     dispatch(removeFromArt(name))
 
     const artWork = {
+      identity,
       name,
       image,
       date,

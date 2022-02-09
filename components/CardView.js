@@ -9,6 +9,7 @@ function CardView({data}) {
         item.private === false ?
           <SmallCard
             key={item._id}
+            identity={item.id}
             image={item.image}
             artist={item.artist}
             name={item.name}

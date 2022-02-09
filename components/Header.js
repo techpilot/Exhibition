@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { signOut, useSession } from "next-auth/react";
 import Image from "next/image"
-import logo from "/public/bird.png"
+import logo from "/public/lion.png"
 
 function Header() {
   const { data: session } = useSession()
